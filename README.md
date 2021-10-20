@@ -44,6 +44,13 @@ docker build . -t apurbagiri/mule4docker
 docker run -it --rm -p 8081:8081 apurbagiri/mule4docker
 ```
 
+## Push container to DockerHub
+
+```bash
+docker tag apurba/mule4docker dockerid/container_name:versiontag
+docker push dockerid/container_name:versiontag
+```
+
 ## Contributing
 Pull requests are welcome.
 
