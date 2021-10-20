@@ -41,13 +41,13 @@ docker build . -t apurbagiri/mule4docker
 ## Starting the container
 
 ```python
-docker run -it --rm -p 8081:8081 apurbagiri/mule4docker
+docker run -it --name mule4docker --rm -p 8081:8081 apurbagiri/mule4docker
 ```
 
 ## Push container to DockerHub
 
 ```bash
-docker tag apurba/mule4docker dockerid/container_name:versiontag
+docker tag apurbagiri/mule4docker dockerid/container_name:versiontag
 docker push dockerid/container_name:versiontag
 ```
 
