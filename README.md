@@ -1,2 +1,2 @@
-# mule-on-docker
+# mule4docker
 Project is for building a docker image for mule runtime to enable mule apps on docker
